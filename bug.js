@@ -1,0 +1,1 @@
+In a Firebase project, I encountered an unusual error where data wasn't persisting despite successful writes to the Realtime Database.  The application's state appeared to update correctly on the client-side, and the database rules were set to allow write access for the authenticated user. However, after closing and reopening the app, the data would be gone.
